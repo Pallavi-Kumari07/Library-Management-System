@@ -6,17 +6,21 @@ include('includes/config.php');
 if($_SESSION['alogin']!=''){
 $_SESSION['alogin']='';
 }
+if(!$dbh) {
+    die("Database connection failed!");
+}    
 if(isset($_POST['login']))
 {
 
+
 $username=$_POST['username'];
 $password=md5($_POST['password']);
-$sql ="SELECT UserName,Password FROM admin WHERE UserName=:username and Password=:password";
+$sql ="SELECT * FROM admin WHERE BINARY UserName='admin' AND Password = 'f925916e2754e5e03f75dd58a5733251';";
 $query= $dbh -> prepare($sql);
-$query-> bindParam(':username', $username, PDO::PARAM_STR);
-$query-> bindParam(':password', $password, PDO::PARAM_STR);
+// $query-> bindParam(':username', $username, PDO::PARAM_STR);
+// $query-> bindParam(':password', $password, PDO::PARAM_STR);
 $query-> execute();
-$results=$query->fetchAll(PDO::FETCH_OBJ);
+$results=$query->fetch(PDO::FETCH_OBJ);
 if($query->rowCount() > 0)
 {
 $_SESSION['alogin']=$_POST['username'];
@@ -24,6 +28,15 @@ echo "<script type='text/javascript'> document.location ='admin/dashboard.php'; 
 } else{
 echo "<script>alert('Invalid Details');</script>";
 }
+
+// if (count($results) == 0) {
+//     echo "<script>alert('Username does not exist');</script>";
+// } elseif ($results[0]->Password !== $password) {
+//     echo "<script>alert('Incorrect password');</script>";
+// } else {
+//     $_SESSION['alogin'] = $username;
+//     echo "<script type='text/javascript'> document.location ='admin/dashboard.php'; </script>";
+// }
 }
 ?>
 <!DOCTYPE html>

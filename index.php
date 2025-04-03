@@ -18,7 +18,7 @@ $results=$query->fetchAll(PDO::FETCH_OBJ);
 
 if($query->rowCount() > 0)
 {
- foreach ($results as $result) {
+ foreach ($result in $results) {
  $_SESSION['stdid']=$result->StudentId;
  $_SESSION['username']=$result->FullName;
 if($result->Status==1)
