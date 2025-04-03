@@ -42,7 +42,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `FullName`, `AdminEmail`, `UserName`, `Password`, `updationDate`) VALUES
-(1, 'Head Admin', 'admin@gmail.com', 'admin', 'f925916e2754e5e03f75dd58a5733251', '2017-07-16 18:11:42');
+(1, 'Anuj Kumar', 'phpgurukulofficial@gmail.com', 'admin', 'f925916e2754e5e03f75dd58a5733251', '2017-07-16 18:11:42');
 
 -- --------------------------------------------------------
 
@@ -223,12 +223,12 @@ CREATE TABLE `tblstudents` (
 --
 
 INSERT INTO `tblstudents` (`id`, `StudentId`, `FullName`, `EmailId`, `MobileNumber`, `Password`, `Status`, `RegDate`, `UpdationDate`) VALUES
-(1, 'SID002', 'Jamie Richerson', 'jamie.richerson@gmail.com', '9865472555', 'f925916e2754e5e03f75dd58a5733251', 1, '2017-07-11 15:37:05', '2018-07-13 08:49:22'),
-(4, 'SID005', 'Casey Shimmer', 'casey.shimmer@gmail.com', '8569710025', '92228410fc8b872914e023160cf4ae8f', 1, '2017-07-11 15:41:27', '2018-06-11 18:26:20'),
-(8, 'SID009', 'Jonathan Roy', 'jonathan.roy@gmail.com', '8329629259', 'f925916e2754e5e03f75dd58a5733251', 1, '2017-07-11 15:58:28', '2018-07-18 05:17:54'),
-(9, 'SID010', 'Kyle Carpenter', 'kyle.carpenter@gmail.com', '8585856224', 'f925916e2754e5e03f75dd58a5733251', 1, '2017-07-15 13:40:30', NULL),
-(10, 'SID011', 'Kennyl Song', 'kennyl.song@gmail.com', '4672423754', 'f925916e2754e5e03f75dd58a5733251', 1, '2017-07-15 18:00:59', NULL),
-(11, 'SID012', 'Ada Nguenhat', 'ada.nguenhat@gmail.com', '1234567890', 'b59c67bf196a4758191e42f76670ceba', 1, '2018-06-11 17:55:21', '2018-07-18 05:18:49');
+(1, 'SID002', 'Anuj kumar', 'anuj.lpu1@gmail.com', '9865472555', 'f925916e2754e5e03f75dd58a5733251', 1, '2017-07-11 15:37:05', '2018-07-13 08:49:22'),
+(4, 'SID005', 'sdfsd', 'csfsd@dfsfks.com', '8569710025', '92228410fc8b872914e023160cf4ae8f', 1, '2017-07-11 15:41:27', '2018-06-11 18:26:20'),
+(8, 'SID009', 'test', 'pb@gmail.com', '8329629259', 'f925916e2754e5e03f75dd58a5733251', 1, '2017-07-11 15:58:28', '2018-07-18 05:17:54'),
+(9, 'SID010', 'Amit', 'amit@gmail.com', '8585856224', 'f925916e2754e5e03f75dd58a5733251', 1, '2017-07-15 13:40:30', NULL),
+(10, 'SID011', 'Sarita Pandey', 'sarita@gmail.com', '4672423754', 'f925916e2754e5e03f75dd58a5733251', 1, '2017-07-15 18:00:59', NULL),
+(11, 'SID012', 'sakshi g', 'sakshi@gmail.com', '1234567890', 'b59c67bf196a4758191e42f76670ceba', 1, '2018-06-11 17:55:21', '2018-07-18 05:18:49');
 
 --
 -- Indexes for dumped tables
