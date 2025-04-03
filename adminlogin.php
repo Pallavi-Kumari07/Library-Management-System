@@ -14,11 +14,11 @@ if(isset($_POST['login']))
 
 
 $username=$_POST['username'];
-$password=md5($_POST['password']);
-$sql ="SELECT * FROM admin WHERE BINARY UserName='admin' AND Password = 'f925916e2754e5e03f75dd58a5733251';";
+$password=$_POST['password'];
+$sql ="SELECT * FROM admin WHERE BINARY UserName=:username AND Password = :password;";
 $query= $dbh -> prepare($sql);
-// $query-> bindParam(':username', $username, PDO::PARAM_STR);
-// $query-> bindParam(':password', $password, PDO::PARAM_STR);
+$query-> bindParam(':username', $username, PDO::PARAM_STR);
+$query-> bindParam(':password', $password, PDO::PARAM_STR);
 $query-> execute();
 $results=$query->fetch(PDO::FETCH_OBJ);
 if($query->rowCount() > 0)

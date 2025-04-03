@@ -8,17 +8,21 @@ $_SESSION['login']='';
 if(isset($_POST['login']))
 {
 $email=$_POST['emailid'];
-$password=md5($_POST['password']);
-$sql ="SELECT FullName,EmailId,Password,StudentId,Status FROM tblstudents WHERE EmailId=:email and Password=:password";
+$password=$_POST['password'];
+$sql ="SELECT * FROM tblstudents WHERE EmailId=:email and Password=:password";
 $query= $dbh -> prepare($sql);
 $query-> bindParam(':email', $email, PDO::PARAM_STR);
 $query-> bindParam(':password', $password, PDO::PARAM_STR);
 $query-> execute();
 $results=$query->fetchAll(PDO::FETCH_OBJ);
 
+if ($query->rowCount() == 0) {
+    echo "<script>alert('Email does not exist');</script>";
+}
+
 if($query->rowCount() > 0)
 {
- foreach ($result in $results) {
+ foreach ($results as $result) {
  $_SESSION['stdid']=$result->StudentId;
  $_SESSION['username']=$result->FullName;
 if($result->Status==1)
