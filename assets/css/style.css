@@ -1,22 +1,4 @@
-﻿
-/*=============================================================
-    Authour URI: www.binarytheme.com
-    License: Commons Attribution 3.0
-
-    http://creativecommons.org/licenses/by/3.0/
-
-    100% Free To use For Personal And Commercial Use.
-    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
-   
-    ========================================================  */
-
-
-
-/* =============================================================
-   GENERAL STYLES
- ============================================================ */
-
-body {
+﻿body {
     font-family: 'Open Sans', sans-serif;
     line-height:28px;
    
@@ -201,6 +183,8 @@ height: 60px;
 .back-widget-set {
     background-color:transparent;
 }
+
+
 
 /* =============================================================
    FOOTER SECTION STYLES

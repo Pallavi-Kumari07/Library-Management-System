@@ -1,4 +1,3 @@
-<!-- <div class="navbar navbar-inverse set-radius-zero" > -->
 <div class="container">
     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -6,10 +5,9 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" >            
-            <img src="assets/img/logo.png" />
-        </a>
         
+        <a class="navbar-brand logo-container" > <img class="logo-img" src="logo.png" /></a>
+        <br>
     </div>
 <?php if($_SESSION['login'])
 {
@@ -68,6 +66,7 @@
 
             </div>
         </div>
+        <br>
     </section>
 
     <?php } ?>

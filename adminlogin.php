@@ -29,14 +29,6 @@ echo "<script type='text/javascript'> document.location ='admin/dashboard.php'; 
 echo "<script>alert('Invalid Details');</script>";
 }
 
-// if (count($results) == 0) {
-//     echo "<script>alert('Username does not exist');</script>";
-// } elseif ($results[0]->Password !== $password) {
-//     echo "<script>alert('Incorrect password');</script>";
-// } else {
-//     $_SESSION['alogin'] = $username;
-//     echo "<script type='text/javascript'> document.location ='admin/dashboard.php'; </script>";
-// }
 }
 ?>
 <!DOCTYPE html>
@@ -53,6 +45,7 @@ echo "<script>alert('Invalid Details');</script>";
     <link href="assets/css/font-awesome.css" rel="stylesheet" />
     <!-- CUSTOM STYLE  -->
     <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="style1.css" rel="stylesheet" />
     <!-- GOOGLE FONT -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 
@@ -60,7 +53,6 @@ echo "<script>alert('Invalid Details');</script>";
 <body>
     <!------MENU SECTION START-->
 <?php include('includes/header.php');?>
-<!-- MENU SECTION END-->
 <div class="content-wrapper">
 <div class="container">
 <div class="row pad-botm">

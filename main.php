@@ -31,16 +31,11 @@ $_SESSION['login']=$_POST['emailid'];
 echo "<script type='text/javascript'> document.location ='dashboard.php'; </script>";
 } else {
 echo "<script>alert('Your Account Has been blocked .Please contact admin');</script>";
-
-}
-}
-
-} 
+}}} 
 
 else{
 echo "<script>alert('Invalid Details');</script>";
-}
-}
+}}
 ?>
 
 <!DOCTYPE html>
@@ -49,13 +44,8 @@ echo "<script>alert('Invalid Details');</script>";
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <title>Online Library Management System</title>
-    <!-- BOOTSTRAP CORE STYLE  -->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
-    <!-- FONT AWESOME STYLE  -->
     <link href="assets/css/font-awesome.css" rel="stylesheet" />
-    <!-- CUSTOM STYLE  -->
-    <link href="assets/css/style1.css" rel="stylesheet" />
-    <!-- GOOGLE FONT -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
     <meta name="description" content="" />
     <meta name="author" content="" />
