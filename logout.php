@@ -10,7 +10,7 @@ if (ini_get("session.use_cookies")) {
 }
 unset($_SESSION['login']);
 unset($_SESSION['thread1']);
-session_destroy(); // destroy session
-header("location:index.php"); 
+session_destroy();
+header("location:main.php"); 
 ?>
 
