@@ -56,7 +56,8 @@ echo "<script>alert('Invalid Details');</script>";
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<?php include('includes/header.php');?>
+<?php include('includes/header.php');
+	  include('bgwork.php');?>
 <div class="content-wrapper">
 <div class="container">
 <div class="row pad-botm">
@@ -117,8 +118,45 @@ echo "<script>alert('Invalid Details');</script>";
             </div>
         </div>
     </section>
-    
+    <br><br><br>
+    <section>
+    <div class="row">
+
+              <div class="col-md-10 col-sm-8 col-xs-12 col-md-offset-1">
+                    <div id="carousel-example" class="carousel slide slide-bdr" data-ride="carousel" >
+                   
+                    <div class="carousel-inner">
+                        <div class="item active">
+
+                            <img src="assets/img/1.jpg" alt="" />
+                           
+                        </div>
+                        <div class="item">
+                            <img src="assets/img/2.jpg" alt="" />
+                          
+                        </div>
+                        <div class="item">
+                            <img src="assets/img/3.jpg" alt="" />
+                           
+                        </div>
+                    </div>
+                    <!--INDICATORS-->
+                     <ol class="carousel-indicators">
+                        <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example" data-slide-to="1"></li>
+                        <li data-target="#carousel-example" data-slide-to="2"></li>
+                    </ol>
+                    <!--PREVIUS-NEXT BUTTONS-->
+                     <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a></div></div>
+  </section>
+  
     <section class="library-features">
+        <h4>---</h4>
         <h2>Library Management System</h2>
         <div class="features-grid">
             <div class="feature-card">
@@ -152,9 +190,7 @@ echo "<script>alert('Invalid Details');</script>";
     </footer>
 
     <script src="assets/js/jquery-1.10.2.js"></script>
-    <!-- BOOTSTRAP SCRIPTS  -->
     <script src="assets/js/bootstrap.js"></script>
-      <!-- CUSTOM SCRIPTS  -->
     <script src="assets/js/custom.js"></script>
 </body>
 </html>

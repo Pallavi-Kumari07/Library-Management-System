@@ -53,6 +53,7 @@ $msg="Brand updted successfully";
 	<link rel="stylesheet" href="css/awesome-bootstrap-checkbox.css">
 	<!-- Admin Stye -->
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="style1.css">
   <style>
 		.errorWrap {
     padding: 10px;

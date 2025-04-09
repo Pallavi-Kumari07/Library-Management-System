@@ -24,6 +24,7 @@ else{?>
     <link href="assets/css/font-awesome.css" rel="stylesheet" />
     <!-- CUSTOM STYLE  -->
     <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="style1.css" rel="stylesheet" />
     <!-- GOOGLE FONT -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 
@@ -167,15 +168,12 @@ $fine=$result->fine;
 }
 ?>
 
-                            <h3><?php echo htmlentities($fine);?> </h3>
-                           Current Fine Per Day
-                        </div>
-                    </div>     
-					
+<h3><?php echo htmlentities($fine);?> </h3>
+  Current Fine Per Day
+</div></div></div> 
 
-        </div> 
-
-             <div class="row">
+<section>
+    <div class="row">
 
               <div class="col-md-10 col-sm-8 col-xs-12 col-md-offset-1">
                     <div id="carousel-example" class="carousel slide slide-bdr" data-ride="carousel" >
@@ -207,25 +205,11 @@ $fine=$result->fine;
   </a>
   <a class="right carousel-control" href="#carousel-example" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
-                </div>
-              </div>
-                 
-               
-             
-               
-            
-             </div>
-            
-    </div>
-    </div>
-     <!-- CONTENT-WRAPPER SECTION END-->
-    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
-    <!-- CORE JQUERY  -->
+  </a></div></div>
+  </section>
+    
     <script src="assets/js/jquery-1.10.2.js"></script>
-    <!-- BOOTSTRAP SCRIPTS  -->
     <script src="assets/js/bootstrap.js"></script>
-      <!-- CUSTOM SCRIPTS  -->
     <script src="assets/js/custom.js"></script>
 </body>
 </html>
