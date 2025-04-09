@@ -18,22 +18,16 @@ else{?>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <![endif]-->
     <title>Online Library Management System | Admin Dash Board</title>
-    <!-- BOOTSTRAP CORE STYLE  -->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
-    <!-- FONT AWESOME STYLE  -->
     <link href="assets/css/font-awesome.css" rel="stylesheet" />
-    <!-- CUSTOM STYLE  -->
     <link href="assets/css/style.css" rel="stylesheet" />
     <link href="style1.css" rel="stylesheet" />
-    <!-- GOOGLE FONT -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 
 </head>
 <body>
-      <!------MENU SECTION START-->
 <?php include('includes/header.php');
 	  include('bgwork.php');?>
-<!-- MENU SECTION END-->
     <div class="content-wrapper">
          <div class="container">
         <div class="row pad-botm">

@@ -62,9 +62,7 @@ echo "<script>alert('Invalid Details');</script>";
 
 </head>
 <body>
-    <!------MENU SECTION START-->
 <?php include('includes/header.php');?>
-<!-- MENU SECTION END-->
 <div class="content-wrapper">
 <div class="container">
 <div class="row pad-botm">
