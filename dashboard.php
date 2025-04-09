@@ -81,6 +81,16 @@ $returnedbooks=$query2->rowCount();
             
     </div>
     </div>
+    <footer>
+        <div class="footer-content">
+            <div>&copy; 2025 NSUT Library | All Rights Reserved</div>
+            <div class="footer-links">
+                <a href="#">Library Hours</a>
+                <a href="#">Contact Librarian</a>
+                <a href="#">Help & FAQs</a>
+            </div>
+        </div>
+    </footer>
     <script src="assets/js/jquery-1.10.2.js"></script>
     <script src="assets/js/bootstrap.js"></script>
     <script src="assets/js/custom.js"></script>

@@ -201,6 +201,17 @@ $fine=$result->fine;
     <span class="glyphicon glyphicon-chevron-right"></span>
   </a></div></div>
   </section>
+
+  <footer>
+        <div class="footer-content">
+            <div>&copy; 2025 NSUT Library | All Rights Reserved</div>
+            <div class="footer-links">
+                <a href="#">Library Hours</a>
+                <a href="#">Contact Librarian</a>
+                <a href="#">Help & FAQs</a>
+            </div>
+        </div>
+    </footer>
     
     <script src="assets/js/jquery-1.10.2.js"></script>
     <script src="assets/js/bootstrap.js"></script>

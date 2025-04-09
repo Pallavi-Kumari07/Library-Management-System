@@ -21,6 +21,20 @@ body {
     line-height:28px;
    
 }
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 40%;
+}
+
+.logo-img {
+    height: 180px;
+    margin-top: 60px;
+    position: relative;
+    width: auto;
+}
 .set-radius-zero {
     border-radius:0px;
     -moz-border-radius:0px;
