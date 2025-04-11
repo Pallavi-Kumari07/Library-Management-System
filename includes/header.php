@@ -22,7 +22,7 @@
 <?php if($_SESSION['login'])
 {
 ?>    
-<section class="menu-section">
+<section class="menu-sec">
         <div class="container">
             <div class="row ">
                 <div class="col-md-12">

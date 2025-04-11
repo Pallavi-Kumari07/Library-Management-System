@@ -50,14 +50,10 @@ echo "<script>alert('Invalid Details');</script>";
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Online Library Management System | </title>
-    <!-- BOOTSTRAP CORE STYLE  -->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
-    <!-- FONT AWESOME STYLE  -->
     <link href="assets/css/font-awesome.css" rel="stylesheet" />
-    <!-- CUSTOM STYLE  -->
     <link href="assets/css/style.css" rel="stylesheet" />
     <link href="style1.css" rel="stylesheet" />
-    <!-- GOOGLE FONT -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 
 </head>
@@ -71,7 +67,6 @@ echo "<script>alert('Invalid Details');</script>";
 </div>
 </div>
              
-<!--LOGIN PANEL START-->           
 <div class="row">
 <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3" >
 <div class="panel panel-info">
