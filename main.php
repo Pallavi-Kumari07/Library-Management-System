@@ -50,7 +50,6 @@ echo "<script>alert('Invalid Details');</script>";
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style1.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -72,7 +71,7 @@ echo "<script>alert('Invalid Details');</script>";
                 <button class="nav-btn">Book Catalog</button>
                 <button class="nav-btn">Study Spaces</button>
                 <button class="nav-btn">Resources</button>
-                <button class="login-btn">Student Login</button>
+                <button class="nav-btn">Authors</button>
             </div>
         </div>
     </header>
