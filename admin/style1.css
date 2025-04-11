@@ -17,18 +17,15 @@ body {
     gap: 40%;
 }
 
-.foot{
-    padding-bottom: 0;
-    margin-bottom: 0;
-    position: relative;
-    bottom: 0;
-}
-
 .logo-img {
     height: 180px;
     margin-top: 60px;
     position: relative;
     width: auto;
+}
+.container{
+    padding: 0;
+    margin: 0;
 }
 /* Header */
 header {
@@ -335,15 +332,16 @@ header {
 footer {
     background: #18265f;
     color: #e0e0e0;
-    padding: 25px 5%;
+    padding: 2% 5%;
+    margin: 0;
 }
 
 .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1400px;
-    margin: 0 auto;
+    max-width: 100%;
+    margin: 0;
     flex-wrap: wrap;
     gap: 15px;
 }
@@ -363,6 +361,9 @@ footer {
     color: white;
     text-decoration: underline;
 }
+
+
+
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
@@ -396,4 +397,8 @@ footer {
         flex-direction: column;
         text-align: center;
     }
+}
+body{
+    padding: 0;
+    margin: 0;
 }

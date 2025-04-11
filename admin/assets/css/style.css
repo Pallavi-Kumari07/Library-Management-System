@@ -1,23 +1,5 @@
-﻿
-/*=============================================================
-    Authour URI: www.binarytheme.com
-    License: Commons Attribution 3.0
-
-    http://creativecommons.org/licenses/by/3.0/
-
-    100% Free To use For Personal And Commercial Use.
-    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
-   
-    ========================================================  */
-
-
-
-/* =============================================================
-   GENERAL STYLES
- ============================================================ */
-
-body {
-    font-family: 'Open Sans', sans-serif;
+﻿body {
+    font-family: 'Poppins', sans-serif;
     line-height:28px;
    
 }
@@ -40,10 +22,10 @@ body {
     -moz-border-radius:0px;
     -webkit-border-radius:0px;
 }
-.content-wrapper {
+.content-wrap {
     margin-top: 40px;
     min-height:800px;
-    padding-bottom:90px;
+    padding-bottom: 5px;
 }
 .header-line {
     font-weight:900;
@@ -54,11 +36,6 @@ body {
 .pad-botm {
     padding-bottom:30px;
 }
-
-
-/* =============================================================
-   NAVBAR & MENU STYLES
- ============================================================ */
 
 .right-div {
     float: right; 
@@ -72,9 +49,8 @@ body {
     text-transform:uppercase;
 
 }
-.menu-section {
+.menu-sec {
     background-color: #f7f7f7;
-    border-bottom:5px solid #9170E4;
     width:100%
 }
 .menu-top-active {
@@ -99,9 +75,7 @@ background-color: black;
 border: 1px solid black;
 }
 
-    /* =============================================================
-   DASHBOARD STYLES
- ============================================================ */
+
 
 .img-comments {
    border: 3px double #e1e1e1;
@@ -114,9 +88,6 @@ height: 60px;
     overflow:auto;
 }
 
-.slide-bdr {
-   border:5px solid #9170E4
-}
 .chat-widget-left:after {
     top: 100%;
     left: 10%;
@@ -216,9 +187,7 @@ height: 60px;
     background-color:transparent;
 }
 
-/* =============================================================
-   FOOTER SECTION STYLES
- ============================================================ */
+
 .footer-section {
     padding:25px 50px 25px 50px;
     color:#000;

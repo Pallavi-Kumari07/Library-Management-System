@@ -35,21 +35,13 @@ $msg="Page data updated  successfully";
 	
 	<title>Car Rental Portal |Admin Manage Brands   </title>
 
-	<!-- Font awesome -->
 	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<!-- Sandstone Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<!-- Bootstrap Datatables -->
 	<link rel="stylesheet" href="css/dataTables.bootstrap.min.css">
-	<!-- Bootstrap social button library -->
 	<link rel="stylesheet" href="css/bootstrap-social.css">
-	<!-- Bootstrap select -->
 	<link rel="stylesheet" href="css/bootstrap-select.css">
-	<!-- Bootstrap file input -->
 	<link rel="stylesheet" href="css/fileinput.min.css">
-	<!-- Awesome Bootstrap checkbox -->
 	<link rel="stylesheet" href="css/awesome-bootstrap-checkbox.css">
-	<!-- Admin Stye -->
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="style1.css">
   <style>
@@ -78,7 +70,7 @@ $msg="Page data updated  successfully";
 
 	<div class="ts-main-content">
 		<?php include('includes/leftbar.php');?>
-		<div class="content-wrapper">
+		<div class="content-wrap">
 			<div class="container-fluid">
 
 				<div class="row">
@@ -151,6 +143,16 @@ foreach($results as $result)
 			</div>
 		</div>
 	</div>
+	<footer>
+        <div class="footer-content foot menu-sec">
+            <div>&copy; 2025 NSUT Library | All Rights Reserved</div>
+            <div class="footer-links">
+                <a href="#">Library Hours</a>
+                <a href="#">Contact Librarian</a>
+                <a href="#">Help & FAQs</a>
+            </div>
+        </div>
+    </footer>
 
 	<!-- Loading Scripts -->
 	<script src="js/jquery.min.js"></script>

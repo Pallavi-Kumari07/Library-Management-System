@@ -1,4 +1,5 @@
 <?php
+//http://localhost/se_project/Library-Management-System/main.php
 session_start();
 error_reporting(0);
 include('includes/config.php');

@@ -1,4 +1,4 @@
-<div class="navbar navbar-inverse set-radius-zero" >
+<div class="navbar" >
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -6,20 +6,21 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand">
+                <a class="navbar-brand logo-container">
 
-                    <img src="assets/img/logo.png" />
-                </a>
-
+                    <img class="logo-img" src="assets/logo.png" />
+                </a>                    
+                </div>
+                <br>
+                
+                <div class="right-div">
+                    <a href="logout.php" class="btn btn-danger pull-right">LOG OUT</a>
+                </div>
             </div>
-
-            <div class="right-div">
-                <a href="logout.php" class="btn btn-danger pull-right">LOG ME OUT</a>
-            </div>
+            <br>
         </div>
-    </div>
-    <!-- LOGO HEADER END-->
-    <section class="menu-section">
+        
+    <section class="menu-sec">
             <div class="container" style="left:0">
 			<div class="row">
                 <div class="col-md-15" >
@@ -71,4 +72,6 @@
                 </div>
 			 </div>
         </div>
+        <br>
+        <br>
     </section>

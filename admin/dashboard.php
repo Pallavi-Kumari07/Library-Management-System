@@ -14,35 +14,30 @@ else{?>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <!--[if IE]>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <![endif]-->
     <title>Online Library Management System | Admin Dash Board</title>
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <link href="assets/css/font-awesome.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
     <link href="style1.css" rel="stylesheet" />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    
 
 </head>
 <body>
 <?php include('includes/header.php');
 	  include('bgwork.php');?>
-    <div class="content-wrapper">
+    <div class="content-wrap">
          <div class="container">
         <div class="row pad-botm">
             <div class="col-md-12">
                 <h4 class="header-line">ADMIN DASHBOARD</h4>
-                
-                            </div>
-
+            </div>
         </div>
              
-             <div class="row">
-
- <div class="col-md-3 col-sm-3 col-xs-6">
-                      <div class="alert alert-success back-widget-set text-center">
-                            <i class="fa fa-book fa-5x"></i>
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <div class="alert alert-success back-widget-set text-center">
+                    <i class="fa fa-book fa-5x"></i>
 <?php 
 $sql ="SELECT id from tblbooks ";
 $query = $dbh -> prepare($sql);
@@ -52,15 +47,12 @@ $listdbooks=$query->rowCount();
 ?>
 
 
-                            <h3><?php echo htmlentities($listdbooks);?></h3>
-                      Books Listed
-                        </div>
-                    </div>
-
-            
-                 <div class="col-md-3 col-sm-3 col-xs-6">
-                      <div class="alert alert-info back-widget-set text-center">
-                            <i class="fa fa-bars fa-5x"></i>
+            <h3><?php echo htmlentities($listdbooks);?></h3>
+                Books Listed
+            </div></div>
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <div class="alert alert-info back-widget-set text-center">
+                    <i class="fa fa-bars fa-5x"></i>
 <?php 
 $sql1 ="SELECT id from tblissuedbookdetails ";
 $query1 = $dbh -> prepare($sql1);
@@ -165,12 +157,13 @@ $fine=$result->fine;
 <h3><?php echo htmlentities($fine);?> </h3>
   Current Fine Per Day
 </div></div></div> 
+<br><br><br>
 
-<section>
+<section class="menu-sec">
     <div class="row">
 
               <div class="col-md-10 col-sm-8 col-xs-12 col-md-offset-1">
-                    <div id="carousel-example" class="carousel slide slide-bdr" data-ride="carousel" >
+                    <div id="carousel-example" class="carousel slide" data-ride="carousel" >
                    
                     <div class="carousel-inner">
                         <div class="item active">
@@ -201,9 +194,10 @@ $fine=$result->fine;
     <span class="glyphicon glyphicon-chevron-right"></span>
   </a></div></div>
   </section>
-
+  <br><br>
+  
   <footer>
-        <div class="footer-content">
+        <div class="footer-content foot menu-sec">
             <div>&copy; 2025 NSUT Library | All Rights Reserved</div>
             <div class="footer-links">
                 <a href="#">Library Hours</a>

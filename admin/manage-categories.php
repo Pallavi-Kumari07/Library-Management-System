@@ -31,22 +31,18 @@ header('location:manage-categories.php');
     <title>Online Library Management System | Manage Categories</title>
     <!-- BOOTSTRAP CORE STYLE  -->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
-    <!-- FONT AWESOME STYLE  -->
     <link href="assets/css/font-awesome.css" rel="stylesheet" />
-    <!-- DATATABLE STYLE  -->
     <link href="assets/js/dataTables/dataTables.bootstrap.css" rel="stylesheet" />
-    <!-- CUSTOM STYLE  -->
+    
     <link href="assets/css/style.css" rel="stylesheet" />
     <link rel="stylesheet" href="style1.css">
-    <!-- GOOGLE FONT -->
+    
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 
 </head>
 <body>
-      <!------MENU SECTION START-->
 <?php include('includes/header.php');?>
-<!-- MENU SECTION END-->
-    <div class="content-wrapper">
+    <div class="content-wrap">
          <div class="container">
         <div class="row pad-botm">
             <div class="col-md-12">
@@ -153,7 +149,7 @@ foreach($results as $result)
                             
                         </div>
                     </div>
-                    <!--End Advanced Tables -->
+                    
                 </div>
             </div>
 
@@ -161,17 +157,22 @@ foreach($results as $result)
             
     </div>
     </div>
+    <footer>
+        <div class="footer-content foot menu-sec">
+            <div>&copy; 2025 NSUT Library | All Rights Reserved</div>
+            <div class="footer-links">
+                <a href="#">Library Hours</a>
+                <a href="#">Contact Librarian</a>
+                <a href="#">Help & FAQs</a>
+            </div>
+        </div>
+    </footer>
 
-     <!-- CONTENT-WRAPPER SECTION END-->
-    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
-    <!-- CORE JQUERY  -->
+    
     <script src="assets/js/jquery-1.10.2.js"></script>
-    <!-- BOOTSTRAP SCRIPTS  -->
     <script src="assets/js/bootstrap.js"></script>
-    <!-- DATATABLE SCRIPTS  -->
     <script src="assets/js/dataTables/jquery.dataTables.js"></script>
     <script src="assets/js/dataTables/dataTables.bootstrap.js"></script>
-      <!-- CUSTOM SCRIPTS  -->
     <script src="assets/js/custom.js"></script>
 </body>
 </html>

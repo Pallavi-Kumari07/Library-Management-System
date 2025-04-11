@@ -29,7 +29,6 @@ $diff=strtotime($date)- strtotime($date2);
 $days=floor($diff/86400);
 	if($days>7){
 	$days=$days-7;
-	//echo"<script>alert('".$days."')</script>";
 	$totalfine=$days*$_SESSION['fine'];
 	$ret1="select * from overdue where StudentID=:id";
 	$query1= $dbh -> prepare($ret1);

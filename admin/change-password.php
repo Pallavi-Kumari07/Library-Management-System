@@ -41,14 +41,10 @@ $error="Your current password is wrong";
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Online Library Management System | </title>
-    <!-- BOOTSTRAP CORE STYLE  -->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
-    <!-- FONT AWESOME STYLE  -->
     <link href="assets/css/font-awesome.css" rel="stylesheet" />
-    <!-- CUSTOM STYLE  -->
     <link href="assets/css/style.css" rel="stylesheet" />
     <link rel="stylesheet" href="style1.css">
-    <!-- GOOGLE FONT -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
   <style>
     .errorWrap {
@@ -83,10 +79,9 @@ return true;
 </script>
 
 <body>
-    <!------MENU SECTION START-->
+
 <?php include('includes/header.php');?>
-<!-- MENU SECTION END-->
-<div class="content-wrapper">
+<div class="content-wrap">
 <div class="container">
 <div class="row pad-botm">
 <div class="col-md-12">
@@ -95,7 +90,7 @@ return true;
 </div>
  <?php if($error){?><div class="errorWrap"><strong>ERROR</strong>:<?php echo htmlentities($error); ?> </div><?php } 
         else if($msg){?><div class="succWrap"><strong>SUCCESS</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>            
-<!--LOGIN PANEL START-->           
+
 <div class="row">
 <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3" >
 <div class="panel panel-info">
@@ -126,16 +121,22 @@ Change Password
 </div>
 </div>
 </div>  
-<!---LOGIN PABNEL END-->            
              
  
     </div>
     </div>
-     <!-- CONTENT-WRAPPER SECTION END-->
+    <footer>
+        <div class="footer-content foot menu-sec">
+            <div>&copy; 2025 NSUT Library | All Rights Reserved</div>
+            <div class="footer-links">
+                <a href="#">Library Hours</a>
+                <a href="#">Contact Librarian</a>
+                <a href="#">Help & FAQs</a>
+            </div>
+        </div>
+    </footer>
     <script src="assets/js/jquery-1.10.2.js"></script>
-    <!-- BOOTSTRAP SCRIPTS  -->
     <script src="assets/js/bootstrap.js"></script>
-      <!-- CUSTOM SCRIPTS  -->
     <script src="assets/js/custom.js"></script>
 </body>
 </html>
