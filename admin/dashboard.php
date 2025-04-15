@@ -19,6 +19,7 @@ else{?>
     <link href="assets/css/font-awesome.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
     <link href="style1.css" rel="stylesheet" />
+    <link href="style2.css" rel="stylesheet" />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-..." crossorigin="anonymous">
 
@@ -28,9 +29,9 @@ else{?>
 <body>
 <?php include('includes/header.php');
 	  include('bgwork.php');?>
-    <div class="content-wrapper">
+    <div class="content-wrap">
          <div class="container">
-        <div class="row pad-botm">
+        <div class="row pad-botm bt">
             <div class="col-md-12">
                 <h4 class="header-line">ADMIN DASHBOARD</h4>
             </div>
@@ -38,7 +39,7 @@ else{?>
 
              
         <div class="row bt">
-            <div class="col-md-3 col-sm-3 col-xs-6 bt">
+            <div class="col-md-3 col-sm-3 col-xs-6">
                 <div class="alert alert-success text-center">
                     <i class="fa fa-book fa-5x"></i>
 <?php 
@@ -105,7 +106,7 @@ $regstds=$query3->rowCount();
 
 
 
- <div class="row">
+ <div class="row bt">
 
  <div class="col-md-3 col-sm-3 col-xs-6">
                       <div class="alert alert-success text-center">
@@ -163,7 +164,7 @@ $fine=$result->fine;
 <br><br><br>
 
 <section class="menu-sec">
-    <div class="row">
+    <div class="row bt">
 
               <div class="col-md-10 col-sm-8 col-xs-12 col-md-offset-1">
                     <div id="carousel-example" class="carousel slide" data-ride="carousel" >
@@ -199,8 +200,8 @@ $fine=$result->fine;
   </section>
   <br><br>
   
-  <footer>
-        <div class="footer-content foot menu-sec">
+  <footer class="bm">
+        <div class="footer-content foot">
             <div>&copy; 2025 NSUT Library | All Rights Reserved</div>
             <div class="footer-links">
                 <a href="#">Library Hours</a>
