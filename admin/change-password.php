@@ -46,6 +46,8 @@ $error="Your current password is wrong";
     <link href="assets/css/style.css" rel="stylesheet" />
     <link rel="stylesheet" href="style1.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-..." crossorigin="anonymous">
   <style>
     .errorWrap {
     padding: 10px;
@@ -83,7 +85,7 @@ return true;
 <?php include('includes/header.php');?>
 <div class="content-wrap">
 <div class="container">
-<div class="row pad-botm">
+<div class="row pad-botm bt">
 <div class="col-md-12">
 <h4 class="header-line">User Change Password</h4>
 </div>
@@ -91,7 +93,7 @@ return true;
  <?php if($error){?><div class="errorWrap"><strong>ERROR</strong>:<?php echo htmlentities($error); ?> </div><?php } 
         else if($msg){?><div class="succWrap"><strong>SUCCESS</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>            
 
-<div class="row">
+<div class="row bt">
 <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3" >
 <div class="panel panel-info">
 <div class="panel-heading">
@@ -126,7 +128,7 @@ Change Password
     </div>
     </div>
     <footer>
-        <div class="footer-content foot menu-sec">
+        <div class="footer-content foot">
             <div>&copy; 2025 NSUT Library | All Rights Reserved</div>
             <div class="footer-links">
                 <a href="#">Library Hours</a>

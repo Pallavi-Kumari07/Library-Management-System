@@ -46,6 +46,8 @@ header('location:manage-books.php');
     <link href="assets/css/style.css" rel="stylesheet" />
     <link rel="stylesheet" href="style1.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-..." crossorigin="anonymous">
 
 </head>
 <body>
@@ -53,14 +55,14 @@ header('location:manage-books.php');
 <?php include('includes/header.php');?>
     <div class="content-wrap">
          <div class="container">
-        <div class="row pad-botm">
+        <div class="row pad-botm bt">
             <div class="col-md-12">
                 <h4 class="header-line">Add Book</h4>
                 
                             </div>
 
 </div>
-<div class="row">
+<div class="row bt">
 <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3"">
 <div class="panel panel-info">
 <div class="panel-heading">
@@ -171,7 +173,7 @@ continue;
     </div>
     </div>
     <footer>
-        <div class="footer-content foot menu-sec">
+        <div class="footer-content foot">
             <div>&copy; 2025 NSUT Library | All Rights Reserved</div>
             <div class="footer-links">
                 <a href="#">Library Hours</a>

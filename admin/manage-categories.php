@@ -160,7 +160,7 @@ foreach($results as $result)
     </div>
     </div>
     <footer>
-        <div class="footer-content foot menu-sec">
+        <div class="footer-content foot">
             <div>&copy; 2025 NSUT Library | All Rights Reserved</div>
             <div class="footer-links">
                 <a href="#">Library Hours</a>

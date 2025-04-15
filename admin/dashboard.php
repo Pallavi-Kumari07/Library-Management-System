@@ -200,7 +200,7 @@ $fine=$result->fine;
   </section>
   <br><br>
   
-  <footer class="bm">
+  <footer>
         <div class="footer-content foot">
             <div>&copy; 2025 NSUT Library | All Rights Reserved</div>
             <div class="footer-links">
