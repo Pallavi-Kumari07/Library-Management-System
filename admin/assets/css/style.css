@@ -22,10 +22,11 @@
     -moz-border-radius:0px;
     -webkit-border-radius:0px;
 }
-.content-wrap {
+.content-wrapper {
     margin-top: 40px;
     min-height:800px;
     padding-bottom: 5px;
+    padding-left: 100px;
 }
 .header-line {
     font-weight:900;
@@ -51,7 +52,7 @@
 }
 .menu-sec {
     background-color: #f7f7f7;
-    width:100%
+    width:100%;
 }
 .menu-top-active {
     background-color:#eeeeee;
@@ -202,3 +203,6 @@ height: 60px;
         color:#000;
     }
 
+body{
+    padding-left: 100px;
+}

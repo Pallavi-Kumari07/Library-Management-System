@@ -20,23 +20,26 @@ else{?>
     <link href="assets/css/style.css" rel="stylesheet" />
     <link href="style1.css" rel="stylesheet" />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-..." crossorigin="anonymous">
+
     
 
 </head>
 <body>
 <?php include('includes/header.php');
 	  include('bgwork.php');?>
-    <div class="content-wrap">
+    <div class="content-wrapper">
          <div class="container">
         <div class="row pad-botm">
             <div class="col-md-12">
                 <h4 class="header-line">ADMIN DASHBOARD</h4>
             </div>
         </div>
+
              
-        <div class="row">
-            <div class="col-md-3 col-sm-3 col-xs-6">
-                <div class="alert alert-success back-widget-set text-center">
+        <div class="row bt">
+            <div class="col-md-3 col-sm-3 col-xs-6 bt">
+                <div class="alert alert-success text-center">
                     <i class="fa fa-book fa-5x"></i>
 <?php 
 $sql ="SELECT id from tblbooks ";
@@ -51,7 +54,7 @@ $listdbooks=$query->rowCount();
                 Books Listed
             </div></div>
             <div class="col-md-3 col-sm-3 col-xs-6">
-                <div class="alert alert-info back-widget-set text-center">
+                <div class="alert alert-info text-center">
                     <i class="fa fa-bars fa-5x"></i>
 <?php 
 $sql1 ="SELECT id from tblissuedbookdetails ";
@@ -67,7 +70,7 @@ $issuedbooks=$query1->rowCount();
                     </div>
              
                <div class="col-md-3 col-sm-3 col-xs-6">
-                      <div class="alert alert-warning back-widget-set text-center">
+                      <div class="alert alert-warning text-center">
                             <i class="fa fa-recycle fa-5x"></i>
 <?php 
 $status=1;
@@ -84,7 +87,7 @@ $returnedbooks=$query2->rowCount();
                         </div>
                     </div>
                <div class="col-md-3 col-sm-3 col-xs-6">
-                      <div class="alert alert-danger back-widget-set text-center">
+                      <div class="alert alert-danger text-center">
                             <i class="fa fa-users fa-5x"></i>
                             <?php 
 $sql3 ="SELECT id from tblstudents ";
@@ -105,7 +108,7 @@ $regstds=$query3->rowCount();
  <div class="row">
 
  <div class="col-md-3 col-sm-3 col-xs-6">
-                      <div class="alert alert-success back-widget-set text-center">
+                      <div class="alert alert-success text-center">
                             <i class="fa fa-user fa-5x"></i>
 <?php 
 $sql4 ="SELECT id from tblauthors ";
@@ -123,7 +126,7 @@ $listdathrs=$query4->rowCount();
 
             
                  <div class="col-md-3 col-sm-3 rscol-xs-6">
-                      <div class="alert alert-info back-widget-set text-center">
+                      <div class="alert alert-info text-center">
                             <i class="fa fa-file-archive-o fa-5x"></i>
 <?php 
 $sql5 ="SELECT id from tblcategory ";
@@ -138,7 +141,7 @@ $listdcats=$query5->rowCount();
                         </div>
                     </div>   
 <div class="col-md-3 col-sm-3 rscol-xs-6">
-                      <div class="alert alert-info back-widget-set text-center">
+                      <div class="alert alert-info text-center">
                             <i class="fa fa-money fa-5x"></i>
 <?php 
 $ret="select * from tblfine where 1";
