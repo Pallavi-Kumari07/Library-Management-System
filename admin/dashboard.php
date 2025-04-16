@@ -26,7 +26,7 @@ else{?>
     
 
 </head>
-<body class="content-wr">
+<body>
 <?php include('includes/header.php');
 	  include('bgwork.php');?>
     <div class="content-wr">
@@ -164,7 +164,7 @@ $fine=$result->fine;
 <br><br><br>
 
 <section class="menu-sec">
-    <div class="row bt">
+    <div class="row">
 
               <div class="col-md-10 col-sm-8 col-xs-12 col-md-offset-1">
                     <div id="carousel-example" class="carousel slide" data-ride="carousel" >
