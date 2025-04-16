@@ -70,14 +70,14 @@ header('location:set-fine.php');
 
 <div class="content-wrap">
          <div class="container">
-        <div class="row pad-botm bt">
+        <div class="row pad-botm">
             <div class="col-md-12">
                 <h4 class="header-line">Set Fine</h4>
                 
                             </div>
 
 </div>
-<div class="row bt">
+<div class="row">
 <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
 <div class="panel panel-info">
 <div class="panel-heading">

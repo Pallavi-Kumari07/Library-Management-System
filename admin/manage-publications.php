@@ -42,11 +42,11 @@ header('location:manage-publications.php');
 
 <div class="content-wrap">
          <div class="container">
-        <div class="row pad-botm bt">
+        <div class="row pad-botm">
             <div class="col-md-12">
                 <h4 class="header-line">Manage Publications</h4>
     </div>
-     <div class="row bt">
+     <div class="row">
     <?php if($_SESSION['error']!="")
     {?>
 <div class="col-md-6">
@@ -94,7 +94,7 @@ header('location:manage-publications.php');
 
 
         </div>
-            <div class="row bt">
+            <div class="row">
                 <div class="col-md-12">
                     <!-- Advanced Tables -->
                     <div class="panel panel-default">

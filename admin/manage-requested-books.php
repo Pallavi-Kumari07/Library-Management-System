@@ -34,11 +34,11 @@ else{
 <?php include('includes/header.php');?>
     <div class="content-wrap">
          <div class="container">
-        <div class="row pad-botm bt">
+        <div class="row pad-botm">
             <div class="col-md-12">
                 <h4 class="header-line">Manage Requested Books</h4>
     </div>
-     <div class="row bt">
+     <div class="row">
     <?php if($_SESSION['error']!="")
     {?>
 <div class="col-md-6">
@@ -77,7 +77,7 @@ else{
 
 
         </div>
-            <div class="row bt">
+            <div class="row">
                 <div class="col-md-12">
                     <!-- Advanced Tables -->
                     <div class="panel panel-default">
