@@ -16,11 +16,11 @@ $query-> bindParam(':password', $password, PDO::PARAM_STR);
 $query-> execute();
 $results=$query->fetchAll(PDO::FETCH_OBJ);
 
-if ($query->rowCount() == 0) {
+if ($results->rowCount() == 0) {
     echo "<script>alert('Email does not exist');</script>";
 }
 
-if($query->rowCount() > 0)
+if($results->rowCount() > 0)
 {
  foreach ($results as $result) {
  $_SESSION['stdid']=$result->StudentId;

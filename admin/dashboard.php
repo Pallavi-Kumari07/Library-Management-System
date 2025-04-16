@@ -26,19 +26,19 @@ else{?>
     
 
 </head>
-<body>
+<body class="content-wr">
 <?php include('includes/header.php');
 	  include('bgwork.php');?>
-    <div class="content-wrap">
+    <div class="content-wr">
          <div class="container">
-        <div class="row pad-botm bt">
+        <div class="row pad-botm">
             <div class="col-md-12">
                 <h4 class="header-line">ADMIN DASHBOARD</h4>
             </div>
         </div>
 
              
-        <div class="row bt">
+        <div class="row">
             <div class="col-md-3 col-sm-3 col-xs-6">
                 <div class="alert alert-success text-center">
                     <i class="fa fa-book fa-5x"></i>
@@ -106,7 +106,7 @@ $regstds=$query3->rowCount();
 
 
 
- <div class="row bt">
+ <div class="row">
 
  <div class="col-md-3 col-sm-3 col-xs-6">
                       <div class="alert alert-success text-center">

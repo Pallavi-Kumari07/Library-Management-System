@@ -26,7 +26,6 @@
     margin-top: 40px;
     min-height:800px;
     padding-bottom: 5px;
-    padding-left: 100px;
 }
 .header-line {
     font-weight:900;
@@ -203,6 +202,4 @@ height: 60px;
         color:#000;
     }
 
-body{
-    padding-left: 100px;
-}
+    
