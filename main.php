@@ -1,5 +1,5 @@
 <?php
-//http://localhost/se_project/Library-Management-System/main.php
+//http://localhost/Library-Management-System/admin/dashboard.php
 session_start();
 error_reporting(0);
 include('includes/config.php');
