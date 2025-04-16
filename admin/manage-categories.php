@@ -29,7 +29,6 @@ header('location:manage-categories.php');
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Online Library Management System | Manage Categories</title>
-    <!-- BOOTSTRAP CORE STYLE  -->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <link href="assets/css/font-awesome.css" rel="stylesheet" />
     <link href="assets/js/dataTables/dataTables.bootstrap.css" rel="stylesheet" />
@@ -46,7 +45,7 @@ header('location:manage-categories.php');
 <?php include('includes/header.php');?>
     <div class="content-wrap">
          <div class="container">
-        <div class="row pad-botm bt">
+        <div class="row pad-botm">
             <div class="col-md-12">
                 <h4 class="header-line">Manage Categories</h4>
     </div>
@@ -98,7 +97,7 @@ header('location:manage-categories.php');
 
 
         </div>
-            <div class="row bt">
+            <div class="row">
                 <div class="col-md-12">
                     <!-- Advanced Tables -->
                     <div class="panel panel-default">

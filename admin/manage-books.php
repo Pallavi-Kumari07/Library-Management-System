@@ -45,7 +45,7 @@ header('location:manage-books.php');
             <div class="col-md-12">
                 <h4 class="header-line">Manage Books</h4>
     </div>
-     <div class="row bt">
+     <div class="row">
     <?php if($_SESSION['error']!="")
     {?>
 <div class="col-md-6">
@@ -93,7 +93,7 @@ header('location:manage-books.php');
 
 
         </div>
-            <div class="row bt">
+            <div class="row">
                 <div class="col-md-12">
                     <!-- Advanced Tables -->
                     <div class="panel panel-default">
