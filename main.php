@@ -1,5 +1,5 @@
 <?php
-//http://localhost/Library-Management-System/admin/dashboard.php
+//http://localhost/Library-Management-System/main.php
 session_start();
 error_reporting(0);
 include('includes/config.php');
@@ -83,13 +83,14 @@ echo "<script>alert('Invalid Details');</script>";
                 <h1>Welcome to Library</h1>
                 <p>Your gateway to knowledge resources and seamless navigation</p>
                 <div class="feature-buttons">
-                    <button class="feature-btn">Find Books</button>
+                    <button class="feature-btn findb">Find Books</button>
                     <button class="feature-btn">Library Map</button>
                     <button class="feature-btn">Issue/Return</button>
                 </div>
             </div>
         </div>
     </div>
+
     
     <section class="library-map-section">
         <h2>Library Navigation Map</h2>
@@ -105,7 +106,6 @@ echo "<script>alert('Invalid Details');</script>";
             </div>
             
             <div class="map-image">
-                <!-- Placeholder for actual map -->
                 <div class="library-layout">
                     <div class="section tech-section">Technology Books</div>
                     <div class="section science-section">Science Books</div>
@@ -178,7 +178,29 @@ echo "<script>alert('Invalid Details');</script>";
         </div>
     </section>
     
-    <footer>
+   
+<div id="bookSearchModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content" style="padding: 20px;">
+      <div class="modal-header">
+        <h4 class="modal-title">Search Books</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <form action="searchbooks.php" method="GET">
+          <div class="form-group">
+            <label for="query">Enter Book Title / Author / Subject / ISBN:</label>
+            <input type="text" name="query" id="query" class="form-control" required>
+          </div>
+          <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<footer>
         <div class="footer-content">
             <div>&copy; 2025 NSUT Library | All Rights Reserved</div>
             <div class="footer-links">
@@ -188,9 +210,17 @@ echo "<script>alert('Invalid Details');</script>";
             </div>
         </div>
     </footer>
-
-    <script src="assets/js/jquery-1.10.2.js"></script>
+<script>
+$(document).ready(function() {
+    $(".findb").click(function() {
+        $("#bookSearchModal").modal('show');
+    });
+});
+</script>
+<script src="assets/js/jquery-1.10.2.js"></script>
     <script src="assets/js/bootstrap.js"></script>
     <script src="assets/js/custom.js"></script>
+
+
 </body>
 </html>

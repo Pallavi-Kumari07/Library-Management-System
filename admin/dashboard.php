@@ -198,6 +198,8 @@ $fine=$result->fine;
     <span class="glyphicon glyphicon-chevron-right"></span>
   </a></div></div>
   </section>
+</div>
+</div>
   <br><br>
   
   <footer>
