@@ -199,17 +199,6 @@ echo "<script>alert('Invalid Details');</script>";
   </div>
 </div>
 
-
-<footer>
-        <div class="footer-content">
-            <div>&copy; 2025 NSUT Library | All Rights Reserved</div>
-            <div class="footer-links">
-                <a href="#">Library Hours</a>
-                <a href="#">Contact Librarian</a>
-                <a href="#">Help & FAQs</a>
-            </div>
-        </div>
-    </footer>
 <script>
 $(document).ready(function() {
     $(".findb").click(function() {
